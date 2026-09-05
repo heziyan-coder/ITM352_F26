@@ -1,0 +1,1 @@
+print("Weight in kilograms:", float(input("Enter your weight in pounds: ")) * 0.453592)
