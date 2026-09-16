@@ -1,3 +1,7 @@
+""""
+created a function that returns the square root of a number n
+"""
+
 def squareroot(n):
     """Return the square root of a number n."""
     if n < 0:

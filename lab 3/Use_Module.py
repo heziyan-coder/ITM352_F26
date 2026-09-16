@@ -1,6 +1,5 @@
 import HandyMath
 
-#get two numbers from the user for HandyMath Calculations
 input1 = float(input("Enter the first number: "))
 input2 = float(input("Enter the second number: "))
 
