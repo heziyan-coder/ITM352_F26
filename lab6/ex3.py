@@ -30,4 +30,5 @@ if (age>=65):
 else:
     print("welcome, non-senior")
 
-print(f"ticket price is $(price:.2f)")
+print(f"ticket price is ${price:.2f}")
+
