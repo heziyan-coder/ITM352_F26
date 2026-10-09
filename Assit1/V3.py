@@ -9,10 +9,10 @@ questions = {
 
 for question, answers in questions.items():
     correct_answer = answers[0]
-     answer = input(f"{question} ")
     for answer in answers:
         print(f"- {answer}")
 
+    answer = input(f"{question} ")
     if answer == correct_answer:
         print("Correct!")
     else:
