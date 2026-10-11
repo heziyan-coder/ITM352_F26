@@ -1,4 +1,5 @@
-# Interactive quiz system, sixth version
+# Japan Travel Challenge
+# A travel quiz game about Japan
 # Make a dictionary with the questions and correct answers
 # Allow the user to choose the option by its label
 # Improve the look and usability. Keep track of correct answers.
@@ -33,19 +34,25 @@ def get_answer(question, alternatives):
     return labeled_answers[answer_label]
 
 
-def ask_question(question, alternatives):    
+def ask_question(question, data):
+    alternatives = data["answers"] 
     correct_answer = alternatives[0]
+    explanation = data["explanation"]
     ordered_alternatives = random.sample(alternatives, k=len(alternatives))
     answer = get_answer(question, ordered_alternatives)
     if answer == correct_answer:
         print("Correct!")
+        print(f"Explanation: {explanation}")
         return 1
     else:
-        print(f"The answer is '{correct_answer!r}', not {answer!r}.")
+        print(f"The correct answer is {correct_answer}, not {answer}.")
+        print(f"Explanation: {explanation}")
         return 0
 
 
 # Main program logic starts here
+print("Welcome to Japan Travel Challenge!")
+
 questions = prepare_questions(questions, NUM_QUESTIONS_PER_QUIZ)
 
 num_correct = 0
@@ -56,3 +63,27 @@ for num, (question, answers) in enumerate(questions, start=1):
     num_correct += ask_question(question, answers)
 
 print(f"\nYou got {num_correct} correct.")
+if num_correct == 5:
+    print("Travel Rank: Japan Expert!")
+elif num_correct >= 3:
+    print("Travel Rank: Smart Traveler!")
+else:
+    print("Travel Rank: Beginner Traveler!")
+
+score_file = open("scores.txt", "r")
+scores = score_file.readlines()
+score_file.close()
+
+high_score = 0
+
+for score in scores:
+    points = int(score.split("/")[0])
+    if points > high_score:
+        high_score = points
+
+if num_correct > high_score:
+    print("New High Score!")
+
+score_file = open("scores.txt", "a")
+score_file.write(f"{num_correct}/5\n")
+score_file.close()

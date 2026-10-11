@@ -1,0 +1,93 @@
+
+{
+  "Which city is the capital of Japan?": {
+    "answers": [
+      "Tokyo",
+      "Osaka",
+      "Kyoto",
+      "Sapporo"
+    ],
+    "explanation": "Tokyo is the capital of Japan and a major travel destination."
+  },
+  "Which Japanese city is famous for Dotonbori and takoyaki?": {
+    "answers": [
+      "Osaka",
+      "Tokyo",
+      "Nagoya",
+      "Sendai"
+    ],
+    "explanation": "Osaka is famous for Dotonbori, street food, and takoyaki."
+  },
+  "Which city is famous for Fushimi Inari Shrine and its red torii gates?": {
+    "answers": [
+      "Kyoto",
+      "Kobe",
+      "Sapporo",
+      "Yokohama"
+    ],
+    "explanation": "Fushimi Inari Shrine is in Kyoto and is famous for its many red torii gates."
+  },
+  "What is the name of Japan's famous high-speed train?": {
+    "answers": [
+      "Shinkansen",
+      "Subway",
+      "Monorail",
+      "Tram"
+    ],
+    "explanation": "The Shinkansen is Japan's high-speed railway system, often called the bullet train."
+  },
+  "Which island is Sapporo located on?": {
+    "answers": [
+      "Hokkaido",
+      "Honshu",
+      "Kyushu",
+      "Shikoku"
+    ],
+    "explanation": "Sapporo is the largest city on Hokkaido, Japan's northernmost main island."
+  },
+  "Which Japanese mountain is famous for its symmetrical shape?": {
+    "answers": [
+      "Mount Fuji",
+      "Mount Takao",
+      "Mount Aso",
+      "Mount Haku"
+    ],
+    "explanation": "Mount Fuji is Japan's highest mountain and is famous for its nearly symmetrical volcanic cone."
+  },
+  "Which city is known for its Peace Memorial Park and atomic bomb history?": {
+    "answers": [
+      "Hiroshima",
+      "Nara",
+      "Hakodate",
+      "Kamakura"
+    ],
+    "explanation": "Hiroshima Peace Memorial Park remembers the victims of the atomic bombing in 1945."
+  },
+  "Which city is famous for its friendly deer in Nara Park?": {
+    "answers": [
+      "Nara",
+      "Tokyo",
+      "Osaka",
+      "Aomori"
+    ],
+    "explanation": "Nara Park is famous for its free-roaming deer, which are a popular attraction."
+  },
+  "Which Japanese city is famous for its annual Snow Festival?": {
+    "answers": [
+      "Sapporo",
+      "Kyoto",
+      "Fukuoka",
+      "Nagoya"
+    ],
+    "explanation": "The Sapporo Snow Festival is held in Hokkaido and features large snow and ice sculptures."
+  },
+  "Which transportation card can be used on many trains and buses in Japan?": {
+    "answers": [
+      "Suica",
+      "Costco Card",
+      "Library Card",
+      "Student ID"
+    ],
+    "explanation": "Suica is a rechargeable IC card used for transportation and purchases at many locations in Japan."
+  }
+}
