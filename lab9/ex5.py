@@ -1,10 +1,9 @@
-#Debugging exercise # 5
-# Program to remove any scores from a list that are below 50.
- 
-scores = [60, 45, 30, 85, 10, 90] 
+import json
 
-for score in scores[:]: 
-    if score < 50: 
-        scores.remove(score)    
- 
-print(scores) 
+with open("questions.json", "r") as file:
+    quiz_questions = json.load(file)
+
+with open("quiz_questions.json", "w") as file:
+    json.dump(quiz_questions, file, indent=4)
+
+print("Quiz questions saved successfully!")

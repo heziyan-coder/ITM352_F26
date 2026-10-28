@@ -1,8 +1,39 @@
-# Retrieving elements from a list
-def get_element(list, index):
-    return list[index]
+# Calculate total fare, average fare, and max trip distance
+# Only include fares greater than $10
 
+import csv
 
-my_list = [1, 2, 3, 4, 5, 6]
-print(get_element(my_list, 2))  
-print(get_element(my_list, 5)) 
+filename = "..\\taxi_1000.csv"
+
+with open(filename, 'r') as file:
+    csv_reader = csv.reader(file)
+
+    total_fare = 0.0
+    max_distance = 0.0
+    average_fare = 0.0
+    num_rows = 0
+
+    for row in csv_reader:
+        if num_rows == 0:
+            fare_index = row.index('Fare')
+            distance_index = row.index('Trip Miles')
+            num_rows += 1
+            continue
+
+        fare = float(row[fare_index])
+        distance = float(row[distance_index])
+
+        if fare > 10:
+            total_fare += fare
+
+            if distance > max_distance:
+                max_distance = distance
+
+            num_rows += 1
+
+if num_rows > 1:
+    average_fare = total_fare / (num_rows - 1)
+
+print(f"Total Fare: ${total_fare:.2f}")
+print(f"Average Fare: ${average_fare:.2f}")
+print(f"Max Trip Distance: {max_distance:.2f} miles")
