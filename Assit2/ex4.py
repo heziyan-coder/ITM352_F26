@@ -1,9 +1,12 @@
-
-# AI Usage:
-# I used ChatGPT to help write and improve parts of this program.
-# ChatGPT helped with pivot tables, input validation,
-# monthly sales growth, and comparing two analytics.
-# I reviewed the code and tested the program.
+# AI Assistance:
+# I used ChatGPT to help with parts of this assignment,
+# including pivot tables, input validation, comparing
+# analytics, and monthly sales growth.
+# Example prompts:
+# "How can I create a pivot table using pandas?"
+# "How can I compare two analytics side by side?"
+# "How can I calculate monthly sales growth using pandas?"
+# I reviewed and tested the code.
 
 import pandas as pd
 import ssl

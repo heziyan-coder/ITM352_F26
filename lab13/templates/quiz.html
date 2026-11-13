@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Japan Travel Challenge</title>
+</head>
+<body>
+    <h1>Japan Travel Challenge</h1>
+    <h2>{{ question }}</h2>
+
+    <form action="/quiz" method="POST">
+        {% for answer in answers %}
+            <p>
+                <label>
+                    <input type="radio" name="answer"
+                           value="{{ answer }}" required>
+                    {{ answer }}
+                </label>
+            </p>
+        {% endfor %}
+
+        <button type="submit">Submit Answer</button>
+    </form>
+</body>
+</html>
