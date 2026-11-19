@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Score</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Japan Travel Challenge</h1>
+    <h2>Quiz Completed!</h2>
+
+    <p>Your Score: {{ score }}/{{ total }}</p>
+    <p>Correct Answers: {{ score }}</p>
+    <p>Incorrect Answers: {{ total - score }}</p>
+    <p>Time Taken: {{ time_taken }} seconds</p>
+
+{% if score == total %}
+    <p>Travel Rank: Japan Expert!</p>
+{% elif score / total >= 0.6 %}
+    <p>Travel Rank: Smart Traveler!</p>
+{% else %}
+    <p>Travel Rank: Beginner Traveler!</p>
+{% endif %}
+<h3>Areas for Improvement</h3>
+
+{% if score == total %}
+    <p>Great job! You got all questions correct!</p>
+{% elif score >= total * 0.6 %}
+    <p>Good job! Review the questions you missed.</p>
+{% else %}
+    <p>Keep practicing! Try again to improve your score.</p>
+{% endif %}
+
+    <a href="/">Play Again</a>
+</body>
+</html>

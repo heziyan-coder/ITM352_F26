@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Japan Travel Challenge</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+    <h1>Japan Travel Challenge</h1>
+
+    <p>Welcome to my Japan travel quiz game!</p>
+
+    <p>Test your knowledge about Japan.</p>
+
+    <p>You will answer 5 questions.</p>
+
+    <h2>Choose Your Difficulty</h2>
+
+    <form action="/quiz" method="GET">
+        <select name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <button type="submit">Start Quiz</button>
+    </form>
+
+</body>
+</html>

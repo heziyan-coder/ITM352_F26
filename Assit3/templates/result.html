@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Answer Result</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Japan Travel Challenge</h1>
+
+    <h2>{{ result }}</h2>
+
+    <p>Explanation: {{ explanation }}</p>
+
+    <a href="/quiz">Next Question</a>
+</body>
+</html>

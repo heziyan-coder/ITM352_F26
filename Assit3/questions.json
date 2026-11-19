@@ -1,0 +1,123 @@
+
+{
+  "Which city is the capital of Japan?": {
+    "answers": ["Tokyo", "Osaka", "Kyoto", "Sapporo"],
+    "explanation": "Tokyo is the capital of Japan and a major travel destination.",
+    "difficulty": "easy",
+    "hint": "This city is on Honshu and is Japan's largest metropolitan area."
+  },
+  "Which Japanese city is famous for Dotonbori and takoyaki?": {
+    "answers": ["Osaka", "Tokyo", "Nagoya", "Sendai"],
+    "explanation": "Osaka is famous for Dotonbori, street food, and takoyaki.",
+    "difficulty": "easy",
+    "hint": "This city is in the Kansai region."
+  },
+  "Which city is famous for Fushimi Inari Shrine and its red torii gates?": {
+    "answers": ["Kyoto", "Kobe", "Sapporo", "Yokohama"],
+    "explanation": "Fushimi Inari Shrine is in Kyoto and is famous for its red torii gates.",
+    "difficulty": "medium",
+    "hint": "This city was the capital of Japan before Tokyo."
+  },
+  "What is the name of Japan's famous high-speed train?": {
+    "answers": ["Shinkansen", "Subway", "Monorail", "Tram"],
+    "explanation": "The Shinkansen is Japan's high-speed railway system.",
+    "difficulty": "easy",
+    "hint": "It is also called the bullet train."
+  },
+  "Which island is Sapporo located on?": {
+    "answers": ["Hokkaido", "Honshu", "Kyushu", "Shikoku"],
+    "explanation": "Sapporo is the largest city on Hokkaido.",
+    "difficulty": "medium",
+    "hint": "This island is in northern Japan."
+  },
+  "Which Japanese mountain is famous for its symmetrical shape?": {
+    "answers": ["Mount Fuji", "Mount Takao", "Mount Aso", "Mount Haku"],
+    "explanation": "Mount Fuji is Japan's highest mountain.",
+    "difficulty": "easy",
+    "hint": "This mountain is Japan's highest peak."
+  },
+  "Which city is known for its Peace Memorial Park and atomic bomb history?": {
+    "answers": ["Hiroshima", "Nara", "Hakodate", "Kamakura"],
+    "explanation": "Hiroshima Peace Memorial Park remembers the victims of the atomic bombing in 1945.",
+    "difficulty": "medium",
+    "hint": "This city was attacked with an atomic bomb on August 6, 1945."
+  },
+  "Which city is famous for its friendly deer in Nara Park?": {
+    "answers": ["Nara", "Tokyo", "Osaka", "Aomori"],
+    "explanation": "Nara Park is famous for its free-roaming deer.",
+    "difficulty": "easy",
+    "hint": "This historic city is near Kyoto and Osaka."
+  },
+  "Which Japanese city is famous for its annual Snow Festival?": {
+    "answers": ["Sapporo", "Kyoto", "Fukuoka", "Nagoya"],
+    "explanation": "The Sapporo Snow Festival features large snow and ice sculptures.",
+    "difficulty": "medium",
+    "hint": "This city is the capital of Hokkaido."
+  },
+  "Which transportation card can be used on many trains and buses in Japan?": {
+    "answers": ["Suica", "Costco Card", "Library Card", "Student ID"],
+    "explanation": "Suica is a rechargeable IC card used for transportation and purchases.",
+    "difficulty": "easy",
+    "hint": "This card is associated with JR East and has a penguin mascot."
+  },
+  "Which Japanese city is famous for its beef called Wagyu from the Hyogo region?": {
+    "answers": ["Kobe", "Tokyo", "Sendai", "Niigata"],
+    "explanation": "Kobe is famous for Kobe beef, a type of Japanese Wagyu.",
+    "difficulty": "medium",
+    "hint": "This port city is near Osaka."
+  },
+  "Which Japanese city is known for its canal and historic warehouses in Hokkaido?": {
+    "answers": ["Otaru", "Asahikawa", "Obihiro", "Kushiro"],
+    "explanation": "Otaru is famous for its scenic canal and historic warehouses.",
+    "difficulty": "medium",
+    "hint": "This city is a popular day trip from Sapporo."
+  },
+  "Which Japanese city is famous for its hot springs and Beppu Jigoku?": {
+    "answers": ["Beppu", "Nara", "Nagano", "Kobe"],
+    "explanation": "Beppu in Oita Prefecture is famous for its hot springs and colorful geothermal pools.",
+    "difficulty": "medium",
+    "hint": "This city is located on the island of Kyushu."
+  },
+  "Which Japanese city is famous for the Itsukushima Shrine floating torii gate nearby?": {
+    "answers": ["Hatsukaichi", "Osaka", "Nagoya", "Sapporo"],
+    "explanation": "Itsukushima Shrine is located on Miyajima Island in Hatsukaichi, Hiroshima Prefecture.",
+    "difficulty": "medium",
+    "hint": "The shrine is on Miyajima Island near Hiroshima."
+  },
+  "Which prefecture is home to the historic village of Shirakawa-go?": {
+    "answers": ["Gifu", "Shizuoka", "Chiba", "Miyagi"],
+    "explanation": "Shirakawa-go is located in Gifu Prefecture and is famous for traditional gassho-zukuri houses.",
+    "difficulty": "hard",
+    "hint": "This prefecture is in central Japan."
+  },
+  "What is the name of Japan's longest river?": {
+    "answers": ["Shinano River", "Tone River", "Kiso River", "Yodo River"],
+    "explanation": "The Shinano River is Japan's longest river.",
+    "difficulty": "hard",
+    "hint": "This river flows through Nagano and Niigata."
+  },
+  "Which Japanese island is home to the city of Takamatsu?": {
+    "answers": ["Shikoku", "Kyushu", "Hokkaido", "Honshu"],
+    "explanation": "Takamatsu is located in Kagawa Prefecture on Shikoku Island.",
+    "difficulty": "hard",
+    "hint": "This is the smallest of Japan's four main islands."
+  },
+  "Which prefecture is famous for the Nachi Falls waterfall?": {
+    "answers": ["Wakayama", "Yamagata", "Ibaraki", "Toyama"],
+    "explanation": "Nachi Falls is located in Wakayama Prefecture on the Kii Peninsula.",
+    "difficulty": "hard",
+    "hint": "This prefecture is south of Osaka."
+  },
+  "Which Japanese city hosted the 1998 Winter Olympics?": {
+    "answers": ["Nagano", "Sapporo", "Tokyo", "Hakodate"],
+    "explanation": "Nagano hosted the 1998 Winter Olympic Games.",
+    "difficulty": "hard",
+    "hint": "This mountainous city is on Honshu."
+  },
+  "Which prefecture is home to the famous sand dunes called Tottori Sakyu?": {
+    "answers": ["Tottori", "Shimane", "Okayama", "Fukui"],
+    "explanation": "The Tottori Sand Dunes are located in Tottori Prefecture along the Sea of Japan.",
+    "difficulty": "hard",
+    "hint": "The prefecture has the same name as the sand dunes."
+  }
+}

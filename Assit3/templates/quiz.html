@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Japan Travel Challenge</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+    <h1>Japan Travel Challenge</h1>
+
+    <p>Difficulty: {{ difficulty }}</p>
+
+    <h2>{{ question }}</h2>
+
+    <form action="/quiz" method="POST">
+            {% for answer in answers %}
+            <p>
+                <label>
+                    <input type="radio" name="answer" value="{{ answer }}" required>
+                    {{ answer }}
+                </label>
+            </p>
+        {% endfor %}
+<button type="button" onclick="showHint()">Show Hint</button>
+
+<p id="hint" style="display: none;">
+    Hint: {{ hint }}
+</p>
+
+<script>
+    function showHint() {
+        document.getElementById("hint").style.display = "block";
+    }
+</script>
+        <button type="submit">Submit Answer</button>
+    </form>
+
+</body>
+</html>
